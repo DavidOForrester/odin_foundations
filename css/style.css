@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    background-color: rgb(145, 145, 145);
 }
 
 * {
@@ -23,10 +24,13 @@ img {
     width: auto;
 }
 
+li {
+    margin: 0;
+}
+
 .recipe-images-container {
     display: flex;
     justify-content: space-around;
-    
 }
 
 .recipe-images-container img {
